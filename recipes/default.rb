@@ -38,6 +38,5 @@ apt_repository "nodejs" do
 end
 
 package "nodejs" do
-  version node[:nodejs][:version]
   action :install
 end
