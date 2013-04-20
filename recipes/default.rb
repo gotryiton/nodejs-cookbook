@@ -34,7 +34,6 @@ apt_repository "nodejs" do
   keyserver "keyserver.ubuntu.com"
   key "C7917B12"
   action :add
-  notifies :run, "execute[apt-get update]", :immediately
 end
 
 package "nodejs" do

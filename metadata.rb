@@ -7,3 +7,4 @@ version          "1.0.0"
 recipe           "nodejs", "Installs Node.JS from source"
 
 depends          "build-essential"
+depends          "apt"
